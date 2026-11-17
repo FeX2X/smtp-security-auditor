@@ -23,7 +23,6 @@ Built for cybersecurity research, network diagnostics, and understanding email t
 - ⚙️ **Port Analysis:** Supports SMTP service port diagnostics.
 - ⏱️ **Configurable Timeout:** Controls connection waiting time.
 - 📊 **Real-Time Statistics:** Displays processing results in the terminal.
-- 🎨 **Hacker-Style CLI:** Colored terminal output and status indicators.
 - 💾 **Automatic Result Export:** Separates successful and failed diagnostic results.
 - 🛡️ **Security Research:** Supports authorized SMTP infrastructure assessments.
 
