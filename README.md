@@ -12,6 +12,12 @@
 🎨 Hacker-style CLI interface
 🛡️ Authorized security research
 
+🕶️ For your SMTP project
+Your uploaded code currently reads:
+- combo.txt — input records.
+- SMTPs.txt — successful account records.
+- failed_accounts.txt — failed account record
+
 # 👾 SMTP SECURITY AUDITOR
 
 ### ⚡ PYTHON-POWERED SMTP SECURITY TOOLKIT
