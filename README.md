@@ -1,26 +1,6 @@
-# smtp-security-auditor
-👾 Advanced Python SMTP Security Auditor | ⚡ Multithreaded server diagnostics | 🌐 SSL/TLS analysis | 📡 Connectivity testing | 🛡️ Cybersecurity Research.
+# 👾 SMTP Security Auditor
 
-🕶️ Python-powered SMTP Security Auditing Toolkit.
-
-⚡ Concurrent server diagnostics
-🌐 SMTP host discovery
-🔐 SSL/TLS configuration analysis
-📡 SMTP connectivity testing
-🚀 High-performance processing
-📊 Real-time terminal statistics
-🎨 Hacker-style CLI interface
-🛡️ Authorized security research
-
-🕶️ For your SMTP project
-Your uploaded code currently reads:
-- mixcombo.txt — input records. #must use mix combo
-- SMTPs.txt — successful account records.
-- failed_accounts.txt — failed account record
-
-# 👾 SMTP SECURITY AUDITOR
-
-###     ⚡ PYTHON-POWERED SMTP SECURITY TOOLKIT
+### ⚡ PYTHON-POWERED SMTP SECURITY TOOLKIT
 
 <p align="center">
   🕶️ RECONNAISSANCE • ANALYSIS • SECURITY
@@ -30,31 +10,49 @@ Your uploaded code currently reads:
 
 ## 💀 ABOUT THE PROJECT
 
-**SMTP SECURITY AUDITOR** is a Python-based cybersecurity research project designed to inspect SMTP server connectivity and evaluate email transport security in authorized testing environments.
+**SMTP SECURITY AUDITOR** is a Python-powered security auditing toolkit designed to analyze SMTP server connectivity, inspect SSL/TLS configurations, and perform concurrent server diagnostics in authorized testing environments.
 
-Built with Python's networking libraries and concurrent processing, it provides a foundation for understanding SMTP communication, server configurations, and TLS security.
+Built for cybersecurity research, network diagnostics, and understanding email transport security.
 
-## ⚡ FEATURES
+## ⚡ KEY FEATURES
 
-- 🚀 Concurrent server diagnostics
-- 🌐 SMTP server connectivity
-- 🔐 SSL/TLS configuration inspection
-- 📡 SMTP service identification
-- ⏱️ Configurable connection timeout
-- 📊 Terminal-based reporting
-- 🎨 Colored CLI interface
-- 🐍 Python-based implementation
+- 🚀 **Multithreaded Processing:** Concurrent SMTP server diagnostics.
+- 🌐 **SMTP Host Discovery:** Identifies SMTP server endpoints from supplied records.
+- 🔐 **SSL/TLS Analysis:** Inspects secure SMTP connection configurations.
+- 📡 **Connectivity Testing:** Evaluates SMTP server availability and responses.
+- ⚙️ **Port Analysis:** Supports SMTP service port diagnostics.
+- ⏱️ **Configurable Timeout:** Controls connection waiting time.
+- 📊 **Real-Time Statistics:** Displays processing results in the terminal.
+- 🎨 **Hacker-Style CLI:** Colored terminal output and status indicators.
+- 💾 **Automatic Result Export:** Separates successful and failed diagnostic results.
+- 🛡️ **Security Research:** Supports authorized SMTP infrastructure assessments.
+
+## 📂 INPUT & OUTPUT FILES
+
+### 📥 Input File
+
+`mixcombo.txt`
+
+Contains the input records used by the auditing tool.
+
+### 📤 Output Files
+
+| Filename | Description |
+|---|---|
+| `SMTPs.txt` | Successful SMTP diagnostic records |
+| `failed_accounts.txt` | Failed diagnostic records |
 
 ## 🧰 TECHNOLOGIES
 
 | Technology | Purpose |
 |---|---|
-| 🐍 Python | Core engine |
-| 📡 smtplib | SMTP communication |
-| 🔐 SSL | Secure connections |
-| 🧵 Threading | Concurrent processing |
-| 🌐 Socket | Network connectivity |
-| 🎨 Colorama | Terminal styling |
+| 🐍 Python | Core implementation |
+| 📡 `smtplib` | SMTP communication |
+| 🔐 `ssl` | TLS/SSL handling |
+| 🧵 `threading` | Thread management |
+| ⚡ `ThreadPoolExecutor` | Concurrent processing |
+| 🌐 `socket` | Network connectivity |
+| 🎨 `colorama` | Terminal styling |
 
 ## 📦 INSTALLATION
 
@@ -72,31 +70,44 @@ pip install colorama
 python smtp_auditor.py
 ```
 
+## 📁 PROJECT STRUCTURE
+
+```text
+smtp-security-auditor/
+│
+├── smtp_auditor.py
+├── mixcombo.txt
+├── SMTPs.txt
+├── failed_accounts.txt
+├── README.md
+└── LICENSE
+```
+
 ## 🖥️ PROJECT OBJECTIVES
 
-- Understand SMTP protocols.
-- Explore secure email transmission.
-- Analyze TLS configurations.
-- Learn Python networking.
-- Practice concurrent programming.
-- Improve email server security awareness.
+- 🔍 Understand SMTP communication protocols.
+- 🔐 Explore secure email transmission.
+- 🌐 Analyze SSL/TLS configurations.
+- 🐍 Develop Python networking skills.
+- ⚡ Learn concurrent programming.
+- 🛡️ Improve email server security awareness.
 
 ## ⚠️ DISCLAIMER
 
-This project is intended for educational purposes, authorized security research, and controlled laboratory environments.
+This project is intended strictly for educational purposes, authorized security auditing, and controlled laboratory environments.
 
-Only inspect servers you own or have explicit permission to test.
+Only test SMTP servers and accounts you own or have explicit permission to assess.
 
-Never collect, transmit, or store other people's email passwords.
+Never collect, disclose, or misuse other people's email credentials.
 
 ## 📜 LICENSE
 
-XXX License
+Specify your chosen open-source license before publishing.
 
 ---
 
 <p align="center">
   💀 <b>ACCESS • ANALYZE • SECURE</b>
-  <br>
+  <br><br>
   🕶️ CYBERSECURITY RESEARCH 🕶️
 </p>
