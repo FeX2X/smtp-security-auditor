@@ -79,8 +79,6 @@ smtp-security-auditor/
 ├── mixcombo.txt
 ├── SMTPs.txt
 ├── failed_accounts.txt
-├── README.md
-└── LICENSE
 ```
 
 ## 🖥️ PROJECT OBJECTIVES
