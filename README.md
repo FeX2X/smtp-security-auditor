@@ -20,7 +20,7 @@ Your uploaded code currently reads:
 
 # 👾 SMTP SECURITY AUDITOR
 
-### ⚡ PYTHON-POWERED SMTP SECURITY TOOLKIT
+###     ⚡ PYTHON-POWERED SMTP SECURITY TOOLKIT
 
 <p align="center">
   🕶️ RECONNAISSANCE • ANALYSIS • SECURITY
