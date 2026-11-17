@@ -41,27 +41,6 @@ Contains the input records used by the auditing tool.
 | `SMTPs.txt` | Successful SMTP diagnostic records |
 | `failed_accounts.txt` | Failed diagnostic records |
 
-## 🧰 TECHNOLOGIES
-
-| Technology | Purpose |
-|---|---|
-| 🐍 Python | Core implementation |
-| 📡 `smtplib` | SMTP communication |
-| 🔐 `ssl` | TLS/SSL handling |
-| 🧵 `threading` | Thread management |
-| ⚡ `ThreadPoolExecutor` | Concurrent processing |
-| 🌐 `socket` | Network connectivity |
-| 🎨 `colorama` | Terminal styling |
-
-## 📦 INSTALLATION
-
-```bash
-git clone https://github.com/FeX2X/smtp-security-auditor.git
-
-cd smtp-security-auditor
-
-pip install colorama
-```
 
 ## ▶️ EXECUTION
 
@@ -79,15 +58,6 @@ smtp-security-auditor/
 ├── SMTPs.txt
 ├── failed_accounts.txt
 ```
-
-## 🖥️ PROJECT OBJECTIVES
-
-- 🔍 Understand SMTP communication protocols.
-- 🔐 Explore secure email transmission.
-- 🌐 Analyze SSL/TLS configurations.
-- 🐍 Develop Python networking skills.
-- ⚡ Learn concurrent programming.
-- 🛡️ Improve email server security awareness.
 
 ## ⚠️ DISCLAIMER
 
