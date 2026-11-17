@@ -14,7 +14,7 @@
 
 🕶️ For your SMTP project
 Your uploaded code currently reads:
-- combo.txt — input records.
+- mixcombo.txt — input records. #must use mix combo
 - SMTPs.txt — successful account records.
 - failed_accounts.txt — failed account record
 
