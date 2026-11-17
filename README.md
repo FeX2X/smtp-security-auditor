@@ -45,7 +45,7 @@ Contains the input records used by the auditing tool.
 ## ▶️ EXECUTION
 
 ```bash
-python smtp_auditor.py
+python smtp-security-auditor.py
 ```
 
 ## 📁 PROJECT STRUCTURE
